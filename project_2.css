@@ -42,10 +42,7 @@ ul li {
     text-align: center;
 }
 
-.fa-star.fa-sm {
-    margin-left: 0;
-    margin-right: -9px;
-}
+
 
 .logo {
     flex: 1;
@@ -1224,7 +1221,7 @@ ul {
 
 input {
     padding: 10px;
-    width: 238px;
+    width: 265px;
     background: no-repeat;
     border: 0;
     border-bottom: 1px solid #bbb;
@@ -1254,7 +1251,7 @@ input {
     height: 22px;
     position: absolute;
     top: 132px;
-    right: 100px;
+    right: 40px;
     background-color: transparent;
     border: none;
 
@@ -1269,7 +1266,7 @@ input {
 i {
 
     color: #6e6e6e;
-    padding: 6px;
+
     border-radius: 5px;
     /* background-color: #6195FF; */
     margin-left: 10px;
@@ -1289,9 +1286,7 @@ i {
 
 }
 
-i:hover {
-    color: white;
-}
+
 
 .dsad {
     border: 0.5px solid #383737;
