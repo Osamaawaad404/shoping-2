@@ -1,0 +1,50 @@
+/* CSS Document */
+.swiper-viewport {
+	margin: 0px;
+	z-index: 1;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+/* OpenCart Code */
+.main-slider .swiper-wrapper, .swiper-container {
+	direction: ltr !important;
+}
+.swiper-pagination {
+	bottom: 10px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.swiper-pagination-bullet {
+	display: inline-block;
+	margin: 0 4px;
+	opacity: 1;
+	cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-indent: -9999px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-khtml-border-radius:50%;
+	-moz-border-radius:50%;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet-active {
+	background: #000000;
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: auto;
+}
