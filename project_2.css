@@ -42,7 +42,10 @@ ul li {
     text-align: center;
 }
 
-
+.fa-star.fa-sm {
+    margin-left: 0;
+    margin-right: -9px;
+}
 
 .logo {
     flex: 1;
